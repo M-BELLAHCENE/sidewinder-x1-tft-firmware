@@ -1,5 +1,28 @@
 ![canvas](https://user-images.githubusercontent.com/34917424/157109870-7dfb9307-6a99-452d-be7a-db92de50488e.png)
 
+Bonjour,
+
+Ce firmware apporte 3 fonctions développées pour faciliter l'entretien de l'imprimante :
+- Clean
+- FrontBed
+- Z-Max
+
+Il n'est pas nécessaire de reflasher la carte mère, ce soft TFT ne s'appuie que sur le GCode standard.  
+L'écran de l'imprimante peut être reprogrammé uniquement en utilisant une carte MicroSD : cette opération n'est pas possible par les autres biais (cable ou clef USB).  
+
+Mode opératoire pour programmer l'écran de la Sidewinder :
+- Formater une carte MicroSD (pas une clef USB, il faut une carte MicroSD)
+- Copier tous les fichiers sur la carte
+- Insérer la carte dans l'imprimante, dans la fente à côté du port USB.
+- Allumer l'imprimante ou la réinitialiser (bouton reset)
+
+L'imprimante démarre avec un écran noir ou s'affichent les phases de la programmation en vert.  
+Une fois la programmation terminée l'imprimante redémarre.  
+
+Si vous avez l'habitude d'utiliser la clef USB il faudra alors aller dans le menu SET, option FILE et y choisir l'USB sinon votre imprimante ne lira que le port MicroSD.
+
+# Détail des fonctionalités
+
 ## Limitations températures
 
 Tout comme dans le firmware des cartes mères j'ai défini les limites à 120 et 260°C.
