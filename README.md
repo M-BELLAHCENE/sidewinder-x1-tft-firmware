@@ -2,7 +2,7 @@
 
 Bonjour,
 
-Ce firmware apporte 3 fonctions développées pour faciliter l'entretien de l'imprimante :
+Ce firmware TFT apporte 3 fonctions développées pour faciliter l'entretien de l'imprimante :
 - Clean
 - FrontBed
 - Z-Max
@@ -11,21 +11,29 @@ Il n'est pas nécessaire de reflasher la carte mère, ce soft TFT ne s'appuie qu
 L'écran de l'imprimante peut être reprogrammé uniquement en utilisant une carte MicroSD : cette opération n'est pas possible par les autres biais (cable ou clef USB).  
 
 Mode opératoire pour programmer l'écran de la Sidewinder :
-- Formater une carte MicroSD (pas une clef USB, il faut une carte MicroSD)
+- Formater une carte MicroSD.
 - Copier tous les fichiers sur la carte
 - Insérer la carte dans l'imprimante, dans la fente à côté du port USB.
-- Allumer l'imprimante ou la réinitialiser (bouton reset)
+- Allumer l'imprimante ou la réinitialiser (petit bouton reset à droite de l'écran)
 
 L'imprimante démarre avec un écran noir ou s'affichent les phases de la programmation en vert.  
 Une fois la programmation terminée l'imprimante redémarre.  
 
-Si vous avez l'habitude d'utiliser la clef USB il faudra alors aller dans le menu SET, option FILE et y choisir l'USB sinon votre imprimante ne lira que le port MicroSD.
+La reprogrammation de l'écran redirige le système de fichier sur le port MicroSD.  
+Si vous avez l'habitude d'utiliser la clef USB il faudra aller dans le menu SET, option FILE et y choisir l'USB.  
 
-# Détail des fonctionalités
+Sur la carte MicroSD vous constaterez que les deux répertoires et les fichiers sont renommés en BAK.  
+C'est tout a fait normal : c'était pour éviter que l'imprimante ne se reprogramme au redémarrage.
+
+# Le firmware en détails
 
 ## Limitations températures
 
-Tout comme dans le firmware des cartes mères j'ai défini les limites à 120 et 260°C.
+Il peut arriver que l'imprimante trace une mystérieuse diagonale ou une ligne droite aller-retour sur la première couche et qu'on ait des pauses durant la fabrication.  
+De mon expérience avec l'ABS ou l'ASA ces problèmes surviennent quand l'électronique surchauffe.  
+Les fonctions de chauffe de buse et de plateau sont limitées respectivement à 260°C et 120°C, ceci afin de préserver l'imprimante des coups de chaleur.  
+Ces limites sont empiriques : au dessus de ces températures j'ai constaté des problèmes multiples et variés.  
+Ces limites ne touchent pas le GCode de vos impressions.  
 
 ## La page Tools/More...  
 
