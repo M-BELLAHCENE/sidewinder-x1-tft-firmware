@@ -60,14 +60,13 @@ The LED turns off to signal the end of the cleaning cycle.
 Duration: Allow 4 minutes  
 
 #### Front Bed
-![canvas](https://user-images.githubusercontent.com/34917424/157111113-3b030914-3090-4efe-95bc-8349777e232f.png)
+![canvas2](https://user-images.githubusercontent.com/34917424/158008748-1e8e264f-4d39-4a55-8c8a-5295a2d7d506.png)
 
 When the plate is pulled forward, the Y axis motor generates current and can damage the controller.  
 With this button the machine performs a G28 Y then a G0 up to the maximum in Y to present the tray to the front of the printer.  
 
 #### Z-Max  
-
-![canvas](https://user-images.githubusercontent.com/34917424/157110936-50e12d07-15f2-4aa1-aab5-21a510976ac5.png)
+![canvas](https://user-images.githubusercontent.com/34917424/158008785-0dbfb6b1-5035-49a9-853c-a62502378182.png)
 
 This command performs a G28 Z and then a G0 to the Z max.  
 These movements are also very useful for maintenance of the worms.
@@ -186,14 +185,13 @@ La LED s'éteint pour signaler la fin du cycle de nettoyage.
 Durée : Prévoir 4 minutes  
 
 #### Front Bed
-![canvas](https://user-images.githubusercontent.com/34917424/157111113-3b030914-3090-4efe-95bc-8349777e232f.png)
+![canvas2](https://user-images.githubusercontent.com/34917424/158008748-1e8e264f-4d39-4a55-8c8a-5295a2d7d506.png)
 
 Quand on tire sur le plateau pour le ramener en avant le moteur de l'axe Y génère du courant et peut endommager le contrôleur.  
 Avec ce bouton la machine effectue un G28 Y puis un G0 jusqu'au max en Y pour présenter le plateau à l'avant de l'imprimante.  
 
 #### Z-Max  
-
-![canvas](https://user-images.githubusercontent.com/34917424/157110936-50e12d07-15f2-4aa1-aab5-21a510976ac5.png)
+![canvas](https://user-images.githubusercontent.com/34917424/158008785-0dbfb6b1-5035-49a9-853c-a62502378182.png)
 
 Cette commande effectue un G28 Z puis un G0 jusqu'au Z max.  
 Ces mouvements sont également très utiles pour l'entretien des vis sans fin.
