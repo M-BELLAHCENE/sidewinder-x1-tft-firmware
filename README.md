@@ -39,11 +39,10 @@ These limits are empirical: above these temperatures I have noticed multiple and
 These limits do not affect the GCode of your prints.  
 
 ### The Tools/More...  
+![Capture](https://user-images.githubusercontent.com/34917424/158009166-e81d2c9b-65f5-413f-a5a6-a13398f0f199.PNG)
 
-![canvas](https://user-images.githubusercontent.com/34917424/157110682-badb1699-8f6d-4e4a-90e8-a40095de744b.png)
 
 #### Clean
-
 ![canvas](https://user-images.githubusercontent.com/34917424/157110778-dba61505-67d1-48ac-9e17-298beb92dc9d.png)
 
 To clean the nozzle I performed this sequence :
