@@ -163,11 +163,9 @@ Ces limites sont empiriques : au dessus de ces températures j'ai constaté des 
 Ces limites ne touchent pas le GCode de vos impressions.  
 
 ### La page Tools/More...  
-
-![canvas](https://user-images.githubusercontent.com/34917424/157110682-badb1699-8f6d-4e4a-90e8-a40095de744b.png)
+![Capture](https://user-images.githubusercontent.com/34917424/158009166-e81d2c9b-65f5-413f-a5a6-a13398f0f199.PNG)
 
 #### Clean
-
 ![canvas](https://user-images.githubusercontent.com/34917424/157110778-dba61505-67d1-48ac-9e17-298beb92dc9d.png)
 
 Pour nettoyer la buse j'effectuais cette séquence :
