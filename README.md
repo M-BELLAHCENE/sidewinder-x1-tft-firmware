@@ -34,7 +34,7 @@ This is quite normal: it was to prevent the printer from reprogramming itself on
 
 It can happen that the printer draws a mysterious diagonal or straight line back and forth on the first layer and that we have pauses during the manufacturing process.  
 In my experience with ABS or ASA these problems occur when the electronics overheat.  
-The nozzle and platen heating functions are limited to 260°C and 120°C respectively, in order to protect the printer from heat strokes.  
+The nozzle and platen heating functions are limited to 260°C and 95°C respectively, in order to protect the printer from heat strokes.  
 These limits are empirical: above these temperatures I have noticed multiple and varied problems.  
 These limits do not affect the GCode of your prints.  
 
@@ -159,7 +159,7 @@ C'est tout a fait normal : c'était pour éviter que l'imprimante ne se reprogra
 
 Il peut arriver que l'imprimante trace une mystérieuse diagonale ou une ligne droite aller-retour sur la première couche et qu'on ait des pauses durant la fabrication.  
 De mon expérience avec l'ABS ou l'ASA ces problèmes surviennent quand l'électronique surchauffe.  
-Les fonctions de chauffe de buse et de plateau sont limitées respectivement à 260°C et 120°C, ceci afin de préserver l'imprimante des coups de chaleur.  
+Les fonctions de chauffe de buse et de plateau sont limitées respectivement à 260°C et 95°C, ceci afin de préserver l'imprimante des coups de chaleur.  
 Ces limites sont empiriques : au dessus de ces températures j'ai constaté des problèmes multiples et variés.  
 Ces limites ne touchent pas le GCode de vos impressions.  
 
