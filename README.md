@@ -127,7 +127,7 @@ These movements are also very useful for maintenance of the worms.
 
 # [FR] ARTILLERY Sidewinder X1 TFT Firmware
 
-![canvas](https://user-images.githubusercontent.com/34917424/157109870-7dfb9307-6a99-452d-be7a-db92de50488e.png)
+![SidewinderTFT](https://user-images.githubusercontent.com/34917424/158008670-81473660-f0a3-4e17-90ff-7afa34f93dbd.png)
 
 Bonjour,
 
