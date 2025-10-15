@@ -51,9 +51,9 @@ To clean the nozzle I performed this sequence :
 - Scrub the nozzle by holding the head still while the temperature drops to 170 or 160°, the temperature at which the plastic no longer flows.  
 
 The cleaning cycle allows the machine operations to be carried out with a single press.  
-The machine positions the head at half height and in the middle of the gantry and heats the nozzle to 260°.  
+The machine positions the head at top height and in the middle of the gantry and heats the nozzle to 260°.  
 Then the heating stops and the LED lights up blue-green to signal the right time for cleaning.
-Once the temperature of the nozzle has dropped to 170° the LED turns white for 2 seconds and then the head goes to the left X origin.  
+Once the temperature of the nozzle has dropped to 170° the LED turns white for 2 seconds and then the head goes to the left X origin and at middle height.  
 The LED turns off to signal the end of the cleaning cycle.  
 Duration: Allow 4 minutes  
 
@@ -77,7 +77,7 @@ These movements are also very useful for maintenance of the worms.
     M104 S260
     Zero machine and go to cleaning position
     G28
-    G0 Z180 X150
+    G0 Z400 X150
     ; LED in red
     M42 P5 S255
     M42 P4 S0
@@ -100,8 +100,8 @@ These movements are also very useful for maintenance of the worms.
     M42 P4 S0
     ; 2 second wait
     G4 S2
-    Head back to the left
-    G28 X
+    ; Head back to the left at middle height
+    G0 X0 Z200
     ; Turn off the light
     M42 P6 S0
     M42 P5 S0
